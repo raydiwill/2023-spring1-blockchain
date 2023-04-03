@@ -1,1 +1,2 @@
-# 2023-spring1
+# 2023 Introduction to Blockchain & Bitcoins course
+
