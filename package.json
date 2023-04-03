@@ -1,15 +1,28 @@
 {
-  "name": "2023-spring1-blockchain",
+  "name": "2023-spring1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnguyen42/2023-spring1.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tnguyen42/2023-spring1/issues"
+  },
+  "homepage": "https://github.com/tnguyen42/2023-spring1#readme",
   "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-solhint": "^3.0.0",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "hardhat": "^2.13.0"
   }
 }
